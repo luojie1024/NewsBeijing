@@ -34,7 +34,7 @@ public class GuideActivity extends Activity {
                     super.onCreate(savedInstanceState);
                     setContentView(R.layout.activity_guide);
                     ViewUtils.inject(this);
-
+                    System.out.println(123);
                     vp.setAdapter(pagerAdapter);
                     float pxFor6dp= TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP,6,getResources().getDisplayMetrics());
                     cpi.setRadius(pxFor6dp);
