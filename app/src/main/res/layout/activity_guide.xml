@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <android.support.v4.view.ViewPager
+        android:id="@+id/guide_vp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </android.support.v4.view.ViewPager>
+    <Button
+        android:id="@+id/guide_btn"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="40dp"
+        android:textSize="18sp"
+        android:textColor="#fff"
+        android:background="@drawable/btn_guide_selector"
+        android:text="立即体验"
+        android:layout_width="100dp"
+        android:layout_height="40dp"/>
+
+    <com.viewpagerindicator.CirclePageIndicator
+        android:id="@+id/guide_cpi"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        android:layout_marginBottom="10dp"/>
+</FrameLayout>

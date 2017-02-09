@@ -15,4 +15,4 @@
         android:layout_height="fill_parent" android:cacheColorHint="#00000000">
     </me.maxwin.view.XListView>
 
-</LinearLayout><!-- From: file:/C:/Users/Teacher/Desktop/Demos/lib-xlv/src/main/res/layout/main.xml -->
+</LinearLayout>

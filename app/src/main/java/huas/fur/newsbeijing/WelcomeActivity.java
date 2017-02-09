@@ -77,7 +77,7 @@ public class WelcomeActivity extends Activity {
 
           //跳转到下一个界面
           private void goNextUi() {
-                    startActivity(new Intent(this,MainActivity.class));
+                    startActivity(new Intent(this,GuideActivity.class));
                     finish();
           }
 
