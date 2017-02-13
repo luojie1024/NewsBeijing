@@ -9,11 +9,13 @@
     tools:context="huas.fur.newsbeijing.MainActivity">
 
     <FrameLayout
+        android:id="@+id/main_fragment_container"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1">
     </FrameLayout>
     <RadioGroup
+        android:id="@+id/main_bottom_rg"
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="50dp">
