@@ -43,7 +43,7 @@ public class GuideActivity extends Activity {
                     cpi.setViewPager(vp);
                     //设置页面变化引起点变化
                     cpi.setOnPageChangeListener(pagerListener);
-
+                    System.out.println(123456);
                     //页面变化监听
                     //vp.setOnPageChangeListener(pagerListener);
                     //默认进入页面隐藏btn,代码复用
