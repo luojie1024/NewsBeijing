@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:padding="5dp">
+
+    <ImageView
+        android:id="@+id/item_news_iv"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:src="@drawable/pic_default_list" />
+
+    <TextView
+        android:layout_marginLeft="4dp"
+        android:id="@+id/item_news_title_tv"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:textSize="18sp"
+        android:layout_toRightOf="@+id/item_news_iv"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:text="这是新闻标题这是新闻标题这是新闻标题这是新闻标题这是新闻标题这是新闻标题这是新闻标题这是新闻标题这是新闻标题这是新闻标题这是新闻标题这是新闻标题这是新闻标题" />
+
+    <TextView
+        android:layout_marginLeft="4dp"
+        android:id="@+id/item_news_pubdate_tv"
+        android:layout_width="match_parent"
+        android:layout_height="22dp"
+        android:layout_below="@+id/item_news_title_tv"
+        android:layout_marginTop="4dp"
+        android:gravity="bottom"
+        android:layout_toRightOf="@+id/item_news_iv"
+        android:text="2016-6-15 15:00" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/news_comment_num" />
+</RelativeLayout>
