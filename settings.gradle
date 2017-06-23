@@ -1,1 +1,1 @@
-include ':app', ':lib-vpi', ':lib-sm', ':lib-xlv'
+include ':app', ':lib-vpi', ':lib-sm', ':lib-xlv', ':lib-arl'

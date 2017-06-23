@@ -34,21 +34,13 @@ public class MainActivity extends Activity {
                     fragments.add(new SettingFragment());
 
                     rg.setOnCheckedChangeListener(checedListener);
-//                    1
-//                    getFragmentManager().
-//                         beginTransaction().
-//                         replace(R.id.main_fragment_container,fragment).
-//                         commit();
-//                    2
-//                    checedListener.onCheckedChanged(rg,R.id.main_home_rb);
-//                    3
-                    ((RadioButton)rg.getChildAt(0)).setChecked(true);
-
+                    ((RadioButton) rg.getChildAt(1)).setChecked(true);
           }
 
           List<Fragment> fragments=new ArrayList<>();
 
           private RadioGroup.OnCheckedChangeListener checedListener=new RadioGroup.OnCheckedChangeListener() {
+
                     /***
                      *
                      * @param radioGroup  设置监听的RadioGroup

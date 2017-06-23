@@ -1,6 +1,7 @@
 package huas.fur.newsbeijing;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v4.view.PagerAdapter;
@@ -48,6 +49,13 @@ public class GuideActivity extends Activity {
                     //vp.setOnPageChangeListener(pagerListener);
                     //默认进入页面隐藏btn,代码复用
                     pagerListener.onPageSelected(0);
+                    btn.setOnClickListener(new View.OnClickListener() {
+                              @Override
+                              public void onClick(View view) {
+                                        Intent intent = new Intent(GuideActivity.this,MainActivity.class);
+                                        startActivity(intent);
+                              }
+                    });
           }
           //向导图片ID
           int[] picRes=new int[]{R.drawable.guide_1,R.drawable.guide_2,R.drawable.guide_3};

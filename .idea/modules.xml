@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/NewsBeijing.iml" filepath="$PROJECT_DIR$/NewsBeijing.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib-arl/lib-arl.iml" filepath="$PROJECT_DIR$/lib-arl/lib-arl.iml" />
       <module fileurl="file://$PROJECT_DIR$/lib-sm/lib-sm.iml" filepath="$PROJECT_DIR$/lib-sm/lib-sm.iml" />
       <module fileurl="file://$PROJECT_DIR$/lib-vpi/lib-vpi.iml" filepath="$PROJECT_DIR$/lib-vpi/lib-vpi.iml" />
       <module fileurl="file://$PROJECT_DIR$/lib-xlv/lib-xlv.iml" filepath="$PROJECT_DIR$/lib-xlv/lib-xlv.iml" />
